@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iniciar Sesión</title>
+	<link rel="icon" href="img/Icono.png" type="image/png">
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+	<div id="container" class="container sign-in"> <!-- Añadir clase sign-in por defecto -->
+		<!-- SECCIÓN DE FORMULARIOS -->
+		<div class="row" style="justify-content: flex-end;">
+			<!-- INICIO DE SESIÓN -->
+			<div class="col align-items-center flex-col sign-in" style="width: 60%;">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-in">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Nombre de usuario">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Contraseña">
+						</div>
+						<button>Iniciar sesión</button>
+						<p><b>¿Olvidaste tu contraseña?</b></p>
+						<!-- Se elimina el párrafo para registrarse -->
+					</div>
+				</div>
+				<div class="form-wrapper"></div>
+			</div>
+			<!-- FIN INICIO DE SESIÓN -->
+		</div>
+		<!-- FIN SECCIÓN DE FORMULARIOS -->
+
+		<!-- SECCIÓN DE CONTENIDO -->
+		<div class="row content-row">
+			<!-- CONTENIDO INICIO -->
+			<div class="col align-items-center flex-col" style="width: 40%;">
+				<div class="text sign-in">
+					<h2>Bienvenido</h2>
+					<p>Para mantenerte conectado, por favor inicia sesión con tu información personal</p>
+				</div>
+			</div>
+			<!-- FIN CONTENIDO INICIO -->
+
+			<!-- Se elimina el CONTENIDO REGISTRO -->
+		</div>
+		<!-- FIN SECCIÓN DE CONTENIDO -->
+	</div>
+
+	<!-- JS -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- MI JS -->
+    <!-- El archivo script.js ya no es necesario si solo hay un formulario y no hay toggle -->
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
